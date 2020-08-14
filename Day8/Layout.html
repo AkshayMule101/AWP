@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="layout.js"></script>
+</head>
+
+<body>
+  <div style="background: burlywood;">
+    <ul style="display: flex;list-style: none;justify-content:space-between;">
+      <li>Home</li>
+      <li>About US</li>
+      <li>Sign in</li>
+    </ul>
+
+  </div>
+
+
+  <div>
+    <input id="inp" placeholder="type here">
+    <button onclick="Comment()">
+      Comment
+    </button>
+  </div>
+
+  <div>
+    <button id="like" onclick="like()">Like
+
+    </button>
+    <button id="Dislike" onclick="Dislike()">DisLike
+
+    </button>
+  </div>
+  <!--Clone a div-->
+  <div id="commentDiv">
+    <div id="placeComment">Place the value</div>
+  </div>
+
+</body>
+
+</html>
