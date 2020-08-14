@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="login.css">
+
+
+</head>
+
+<body>
+  <div class="main">
+    <pr>
+      <b>Login</b>
+    </pr>
+  </div>
+  <div class="login">
+
+    <form id="form" action="" method="GET">
+      <label for="Username">Username</label><br>
+      <input type="text" placeholder="Username" pattern="[/A-za-z0-9@/]{3,12}" required style="margin-top: 5px;"><br>
+      <label for=" Password">Password</label><br>
+      <input type="text" placeholder="Password" pattern="[/A-Za-z@/]{5,12}" required style=" margin-top: 5px;"><br>
+      <center><button style="margin-top: 15px">Login</button><br></center>
+
+      <input type="checkbox" value="Remember Me" name="Remember Me">
+      <label>Remember Me</label><br>
+      <input type="checkbox" value="Keep Me Signed In" name="Keep Me Signed In" style="margin-bottom: 20 px;">
+      <label>Keep Me Signed In</label>
+    </form>
+
+  </div>
+</body>
+
+</html>
