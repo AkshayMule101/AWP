@@ -1,0 +1,44 @@
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotation Flag</title>
+  <style>
+    body {
+      margin: 0px;
+      text-align: center;
+    }
+
+    #loading {
+      -webkit-animation: rotation 2s infinite linear;
+      height: 100%;
+    }
+
+    @-webkit-keyframes rotation {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+
+      to {
+        -webkit-transform: rotate(359deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div style="height: 34%; background:orange;">
+  </div>
+
+  <div style="height: 34%; background:white;">
+    <img id="loading" src="Ashoka_Chakra.png">
+  </div>
+
+  <div style="height: 34%;  background:green;">
+  </div>
+
+</body>
+
+</html>
